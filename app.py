@@ -9,4 +9,4 @@ def header():
            '<h3 contenteditable="true">This text is editable. Write anything you want here.</h3>'
 
 if __name__ == '__main__':
-    app.run(threaded=True, port=5000)
+    app.run("port", PORT)
